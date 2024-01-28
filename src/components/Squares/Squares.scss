@@ -1,0 +1,21 @@
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  gap: 1px;
+
+  &__square {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    background: #DEF1FF;
+    border: 1px solid #97C5FF;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &--active {
+      background-color: #97C5FF;
+    }
+  }
+}

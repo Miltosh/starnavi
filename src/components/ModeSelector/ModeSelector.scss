@@ -1,0 +1,18 @@
+.selector {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #def1ff;
+  transition: border-color 0.2s;
+
+  &__option {
+    font-size: 16px;
+
+    &:checked {
+      background-color: #def1ff;
+    }
+  }
+}

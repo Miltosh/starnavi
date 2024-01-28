@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from 'react3'
+import { FC, useState, useEffect } from 'react'
 import { ModeSelector } from './components/ModeSelector/ModeSelector'
 import { Squares } from './components/Squares/Squares'
 import { SquaresInfo } from './components/SquaresInfo/SquaresInfo'
